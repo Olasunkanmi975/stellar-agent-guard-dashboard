@@ -547,3 +547,31 @@ code {
   white-space: pre-wrap;
   word-break: break-all;
 }
+
+[data-theme="light"] {
+  --bg: #ffffff;
+  --panel: #f5f7fa;
+  --panel-2: #e9ecef;
+  --line: #d1d9e2;
+  --text: #1a202c;
+  --muted: #4a5568;
+  --accent: #2b6cb0;
+  --ok: #276749;
+  --warn: #975a16;
+  --danger: #c53030;
+  color-scheme: light;
+}
+
+[data-theme="high-contrast"] {
+  --bg: #000000;
+  --panel: #000000;
+  --panel-2: #000000;
+  --line: #ffffff;
+  --text: #ffffff;
+  --muted: #ffffff;
+  --accent: #ffff00;
+  --ok: #00ff00;
+  --warn: #ffcc00;
+  --danger: #ff0000;
+  color-scheme: dark;
+}
